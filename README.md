@@ -116,7 +116,7 @@ The Gemini generated instructions were mostly okay but the refinements tend towa
 
 I spent 2 hours working on this extension including a 15 minute break. 
 
-* 30 minutes generating, review, and editing code.
+* 30 minutes generating, reviewing, and editing code.
 * 15 minutes generating icons.
 * 1 hour creating the README and pushing the project to GitHub.
 
