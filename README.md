@@ -46,7 +46,7 @@ I also changed the final version back to 1.0 as Gemini increased the version on 
 
 Since my goal was to see how fast vibe coding could solve my problem I wanted to get something out the door as fast as possible. Even some of the refinements weren't required but they made the plug-in more general purpose and took minimal time. Ideas for future changes:
 
-* It might be nice to use [optional_host_permissions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_host_permissions) with the permissions API in the future to avoid requesting.
+* It might be nice to use [optional_host_permissions](https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_host_permissions) with the permissions API in the future to avoid requesting permissions for all sites.
 * Improve the UI. It is a bit uninspired and small. It's funny because it is kind of the stereotypical UI that a backend developer might create. 
 * Edit rules. You can add and remove rules but not edit them.
 
