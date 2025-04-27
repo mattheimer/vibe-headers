@@ -74,7 +74,7 @@ The resulting image was created as a single image. The resolutions were much lar
 
 ![Three icons all rendered in a single image with text indicating the images are of the requested size while they are actually much larger.](icons.png "ChatGPT generated icons")
 
-I pulled the image into Gimp, cropped it to the larger one, added a white file and scaled as needed to produce the images you see in the [images folder](./images/).
+I pulled the image into Gimp, cropped it to the larger one, added a white fill and scaled as needed to produce the images you see in the [images folder](./images/).
 
 Entire conversation: <https://chatgpt.com/share/680e6fad-5a34-8007-b779-318debcc296f>
 
