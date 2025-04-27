@@ -1,0 +1,87 @@
+body {
+    font-family: sans-serif;
+    width: 450px; /* Adjust width as needed */
+    padding: 10px;
+    font-size: 14px;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.rule-form {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.rule-form input[type="text"],
+.rule-form select {
+    display: block;
+    width: calc(100% - 22px); /* Account for padding/border */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.rule-form button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.rule-form button:hover {
+    background-color: #0056b3;
+}
+
+#rules-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#rules-list li {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+#rules-list li span {
+    flex-grow: 1;
+    margin-right: 10px;
+    word-break: break-all; /* Prevent long text overflowing */
+}
+
+#rules-list li button {
+    padding: 3px 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#rules-list li button:hover {
+     background-color: #c82333;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

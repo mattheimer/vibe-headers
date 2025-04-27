@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header Modifier Pro (URL Filters)</title> <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <h1>Header Modification Rules</h1>
+
+    <div class="rule-form">
+        <h2>Add New Rule</h2>
+        <input type="text" id="domain-pattern" placeholder="URL Filter Pattern (e.g., *://*.example.com/path/*, leave empty for all sites)">
+        <select id="operation">
+            <option value="set">Set Header</option>
+            <option value="remove">Remove Header</option>
+            <option value="append">Append Header</option>
+        </select>
+        <input type="text" id="header-name" placeholder="Header Name (e.g., X-Custom-Header)">
+        <input type="text" id="header-value" placeholder="Header Value (leave empty for 'remove')">
+        <button id="add-rule-button">Add Rule</button>
+        <p id="error-message" class="error"></p>
+    </div>
+
+    <h2>Current Rules</h2>
+    <ul id="rules-list">
+        </ul>
+
+    <script src="popup.js"></script>
+</body>
+</html>
