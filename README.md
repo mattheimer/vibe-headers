@@ -94,7 +94,7 @@ The Gemini generated instructions were mostly okay but the refinements tend towa
 6. The extension should now appear in your list. Look for any errors reported on the extension card.
 7. Click the extension icon in your toolbar to open the popup.
 8. Add a rule:
-    * URL filter Pattern: *://google.com/* (or leave blank for all sites)
+    * URL filter Pattern: \*://google.com/\* (or leave blank for all sites)
     * Operation: Set Header | Remove Header | Append Header
     * Header Name: Accept-Encoding
     * Header Value: gzip
